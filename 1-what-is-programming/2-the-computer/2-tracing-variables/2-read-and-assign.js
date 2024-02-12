@@ -13,7 +13,7 @@
 */
 
 /* --- assigning new values to a variable --- */
-
+debugger;
 // declare name using let
 // initialize to "Gödel"
 let name = 'Gödel';

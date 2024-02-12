@@ -13,7 +13,7 @@
           but that's for later
 
 */
-
+debugger;
 let turtle;
 
 let food;
