@@ -9,7 +9,7 @@ declared, initialized, read , reassigned,...
 
 // DECLARE a variable named `M`
 // INITIALIZE the value to "mother"
-let M = 'mother';
+let m = 'dia';
 
 // DECLARE a variable named `p`
 // INITIALIZE the value to "father"
@@ -22,14 +22,14 @@ let f = 'family';
 //read the value of 'm'
 //concat' hello' and 'mother'
 //assign 'hello mother'to 'g'
- let g = 'hello'+ M;
+ let g = 'hello'+ m;
 
  //log the variable 'g'
  console.log(g);
 
  //ressigning the value of M
 
- let r = M
+ let r = m
 
  //log the reassigned value
  console.log(r)

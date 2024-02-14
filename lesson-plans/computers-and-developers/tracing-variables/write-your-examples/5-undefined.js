@@ -7,8 +7,8 @@ TODO: create a few variables(undefined):
 declared, initialized, read , reassigned,...
 */
 // This code attempts to concatenate a string with an undefined variable
-let name;
+let person;
 
 
 //This will result in 'Hello,undefined'because 'name'is undefined
-console.log("Hello" +  name);
+console.log("Hello" +  person);

@@ -14,21 +14,21 @@ debugger;
 
 //declare a variable named 'x'
 //initialize the value to 'Pieter'
-
 let x = 'Pieter';
 
 // let x = 'Blake';
 // let x = 'George';
 
-//concatenate 'hello' and 'x'
-
+//declare a variable named 'y'
+//read the value of 'x'
+//concatenate 'hello' and 'pieter'
 let y = 'hello ' + x;
 
 //read the value stored in 'y'
-
 console.log(y);
 
-//concatenate 'good bye' and 'x'
+//read the value of 'x'
+//concatenate 'good bye' and 'pieter'
 y = 'good bye ' + x;
 
 //read the value stored in 'y'
