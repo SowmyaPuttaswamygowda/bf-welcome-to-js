@@ -3,7 +3,7 @@
 'use strict';
 
 // your answers should only include numbers and +
-
+debugger;
 console.log('--- find 5 ways to log the number 5 ---');
 // examples
 console.log(5);

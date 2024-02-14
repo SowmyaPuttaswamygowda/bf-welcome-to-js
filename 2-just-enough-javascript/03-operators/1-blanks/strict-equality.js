@@ -3,7 +3,7 @@
 'use strict';
 
 // your answers must include ===, but can use any type
-
+debugger;
 console.log('--- write 5 comparisons that evaluate to true ---');
 // examples
 console.log('hello' === 'hello');
@@ -26,4 +26,4 @@ console.log('Best' === 'best');
 console.log('manY' === 'many');
 console.log('4' === '5');
 console.log('book' === 'book ');
-console.log();
+console.log('mobile' === 'Mobile');
