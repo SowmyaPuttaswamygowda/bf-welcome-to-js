@@ -16,7 +16,8 @@ console.log('--- in execution phase ---');
 
   the fix(es):
 */
-
+debugger;
 let tree = 'oak';
 
-let tree = 'birch';
+ tree = 'birch';
+ console.log(tree);

@@ -31,8 +31,8 @@ whenFormDataChanges('search-input', () => {
   let caseSensitive = readBoolean('sensitive');
 
   // --- do the search ---
-
-  doesExist = false;
+  
+ let doesExist = false;
 
   if (caseSensitive) {
     doesExist = searchThis.includes(findThis);
