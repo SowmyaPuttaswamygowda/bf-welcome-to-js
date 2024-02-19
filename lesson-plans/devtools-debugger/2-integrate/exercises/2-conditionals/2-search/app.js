@@ -1,3 +1,4 @@
+debugger;
 import {
   whenFormDataChanges,
   readString,
@@ -34,9 +35,9 @@ whenFormDataChanges('search-input', () => {
   let message = '';
 
   if (doesExist) {
-    message = 'yes';
+    message = 'both the words match';
   } else {
-    message = 'no';
+    message = 'both the words do not match';
   }
 
   // --- display the search results ---
