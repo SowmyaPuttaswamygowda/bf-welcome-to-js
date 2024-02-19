@@ -14,12 +14,12 @@
     trying:
 
 */
-
+debugger;
 let message = '';
 
 let input = null;
-while (input === null || input.length === 0) {
-  const input = prompt('enter something');
+while (!input) {
+   input = prompt('enter something');
 
   message = 'you entered "' + input + '"';
 }

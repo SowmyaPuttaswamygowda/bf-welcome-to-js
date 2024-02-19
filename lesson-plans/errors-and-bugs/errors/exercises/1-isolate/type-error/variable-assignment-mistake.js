@@ -19,9 +19,11 @@ console.log('--- in execution phase ---');
 
   the fix(es):
 */
-
+debugger;
 let isHappy = false;
 
-true = isHappy;
+isHappy = true;
+
+console.log(isHappy);
 
 

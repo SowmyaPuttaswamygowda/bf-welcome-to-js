@@ -22,6 +22,7 @@ console.log('--- in execution phase ---');
 */
 
 
-const 3 = 'three';
+const num3 = 'three';
+console.log(num3);
 
 
