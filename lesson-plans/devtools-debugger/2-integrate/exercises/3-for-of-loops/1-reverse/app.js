@@ -1,3 +1,4 @@
+debugger;
 import {
   whenFormDataChanges,
   readString,
@@ -29,12 +30,23 @@ whenFormDataChanges('reversify', () => {
   // --- set to upper or lower case ---
 
   let finalText = '';
-  if (screaming) {
+  /* if (screaming) {
     finalText = reversed.toUpperCase();
   } else {
     finalText = reversed.toLowerCase();
   }
+*/
+let finaltextlen = reversed.length;
 
+if(finaltextlen > 6) {
+  finalText = reversed.toUpperCase();
+}
+else if(finaltextlen = 6) {
+  finalText = reversed;
+}
+else if(finaltextlen <= 6){
+  finalText = reversed.toLowerCase();
+}
   console.log(finalText);
 
   // --- display the final text ---
@@ -50,5 +62,4 @@ whenFormDataChanges('reversify', () => {
       medium inputs are not changed
       shorter inputs are lower case
   - make sure each character appears only once in the reversed text
-
 */

@@ -25,5 +25,5 @@ console.log(1 === 1.1);
 console.log('Best' === 'best');
 console.log('manY' === 'many');
 console.log('4' === '5');
-console.log('book' === 'book ');
+console.log('b+ook' === 'book ');
 console.log('mobile' === 'Mobile');
