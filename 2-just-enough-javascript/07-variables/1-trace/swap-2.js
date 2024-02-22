@@ -11,13 +11,13 @@ let temp;
 /* 2. swap the values between a and b
   this is done using 3 assignments
 */
-
+debugger;
 temp = b;
-console.log(a, b, temp); // ?, ?, ?
+console.log(a, b, temp); // y, x, x
 b = a;
-console.log(a, b, temp); // ?, ?, ?
+console.log(a, b, temp); // y, y, x
 a = temp;
-console.log(a, b, temp); // ?, ?, ?
+console.log(a, b, temp); // x, y, x
 
 /* 3. compare the final values
   all the comparisons should be true

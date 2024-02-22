@@ -4,7 +4,7 @@
 
 // declare a variable named isBelgian
 //   initialize it with the boolean true
-
+debugger;
 let isBelgian = true;
 console.log(isBelgian); // true
 
