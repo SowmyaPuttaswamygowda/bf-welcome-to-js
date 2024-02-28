@@ -3,7 +3,7 @@
 'use strict';
 
 // fill in the blanks to log the correct values
-
+debugger;
 let phrase = 'a';
 console.log(phrase); // 'a'
 
@@ -21,3 +21,4 @@ console.log(phrase); // 'drive a car'
   Let
 
 */
+

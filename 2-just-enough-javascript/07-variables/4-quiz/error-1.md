@@ -4,7 +4,7 @@
 
 ```js
 'use strict';
-
+debugger;
 let animal = 'dog'; // line 3
 
 console.log(animal); // line 5

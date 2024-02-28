@@ -9,7 +9,7 @@
     b. assign the new greeting's value to the greeting
   3. compare greeting to 'bye'
 */
-
+debugger;
 let greeting = 'hello';
 
 {
@@ -21,5 +21,5 @@ console.log(greeting === 'bye');
 
 /* ------------ */
 
-let greeting = newGreeting; // distractor
-let newGreeting = 'bye'; // distractor
+ greeting = newGreeting; // distractor
+ newGreeting = 'bye'; // distractor

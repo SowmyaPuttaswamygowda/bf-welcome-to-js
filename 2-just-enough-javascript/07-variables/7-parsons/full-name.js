@@ -8,7 +8,7 @@
   3. declare the full name
   4. log the full name
 */
-
+debugger;
 let first = 'Padma';
 
 let last = 'Patil';
@@ -19,7 +19,7 @@ console.log(full);
 
 // --- distractors ---
 
-Let first = 'Padma'; // distractor
+let first = 'Padma'; // distractor
 last = 'Patil'; // distractor
 let = last 'Patil'; // distractor
-let full first + ' ' + last; // distractor
+let full =first + ' ' + last; // distractor

@@ -1,11 +1,11 @@
 // #todo
 
 'use strict';
-
+debugger;
 let input = prompt('enter something with "ear" in it');
 
 let message;
-if (input === null) {
+if (!input) {
   message = 'you canceled';
 } else {
   if (input.includes('ear')) {

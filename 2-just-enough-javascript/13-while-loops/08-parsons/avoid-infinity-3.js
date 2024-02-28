@@ -1,20 +1,21 @@
 'use strict';
-
-
+debugger;
+/*
 let dots = '';
 while (dots.length < 5) {
   dots = dots + '.';
   alert(dots);
-}
+}*/
 
 /* --------- */
 
 
-dots + '.'; // distractor
-while (dots.length !> 5) { // distractor
-while (dots.length !< 5) { // distractor
+ let dots = ''; // distractor
+while (dots.length < 5) {
+ dots = dots + '.' ;
+ alert (dots)// distractor
 } // distractor
-{ // distractor
+ // distractor
 
 
 // #todo

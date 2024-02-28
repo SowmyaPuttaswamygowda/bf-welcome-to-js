@@ -5,13 +5,17 @@ import {
   displayString,
 } from '../../../../../lib/dom-io/index.js';
 
-whenFormDataChanges('______', () => {
-  // debugger;
+whenFormDataChanges('numbers', () => {
+   debugger;
   console.log('\n--- form data changed ---');
 
   // --- read user input ---
+  const leftNumber = readNumber('leftnumber');
+  const rightNumber = readNumber('rightnumber');
+
 
   // --- compare the numbers ---
+  const greaterThanore
 
   // --- create a message
 

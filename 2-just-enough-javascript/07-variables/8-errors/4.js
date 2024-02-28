@@ -3,9 +3,9 @@
 'use strict';
 
 // fix the error in this code
-
-favoriteVegetable = 'potato';
+debugger;
+let favoriteVegetable = 'potato';
 console.log(favoriteVegetable); // 'potato'
 
-let favoriteVegetable = 'carrot';
+ favoriteVegetable = 'carrot';
 console.log(favoriteVegetable); // 'carrot'

@@ -10,20 +10,26 @@
 
 
 
-let userInput = '';
+/*let userInput = '';
 
 while (userInput === null || userInput === '') {
   userInput = prompt('enter at least one character');
 }
 
-alert(userInput);
+alert(userInput);*/
 
 
 // begin distractors
+debugger;
+let userInput = '';
 
-while (userInput === null && userInput === '') { // distractor
-while (userInput !== null && userInput !== '') { // distractor
-while (userInput !== null || userInput !== '') { // distractor
+while (userInput === null && userInput === '') { 
+   userInput = prompt('enter at least one character');// distractor
+}
+alert(userInput);
+
+//while (userInput !== null && userInput !== '') { // distractor
+//while (userInput !== null || userInput !== '') { // distractor
 
 
 // #todo

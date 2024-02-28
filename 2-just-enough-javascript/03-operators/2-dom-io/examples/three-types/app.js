@@ -7,15 +7,17 @@ import {
   displayString,
 } from '../../../../../lib/dom-io/index.js';
 
+var strValue, numValue, boolValue;
+
 whenFormDataChanges('values', () => {
   // debugger;
   console.log('\n--- form data changed ---');
 
   // --- read user input ---
 
-  let strValue = readString('str');
-  let numValue = readNumber('num');
-  let boolValue = readBoolean('bool');
+  strValue = readString('str');
+  numValue = readNumber('num');
+  boolValue = readBoolean('bool');
 
   console.log(strValue, numValue, boolValue);
 
