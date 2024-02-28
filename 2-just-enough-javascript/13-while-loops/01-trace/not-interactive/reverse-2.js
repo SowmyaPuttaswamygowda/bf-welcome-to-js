@@ -1,8 +1,8 @@
 // #todo
 
 'use strict';
-
-let word = 'racecar';
+debugger;
+let word = 'bike';
 // let word = 'bike';
 // let word = 'f';
 // let word = ' i o u ';

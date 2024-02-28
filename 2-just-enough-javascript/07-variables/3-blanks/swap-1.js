@@ -1,5 +1,5 @@
 // #todo
-
+debugger;
 'use strict';
 
 let a = 'bye';
@@ -10,6 +10,6 @@ temp = a;
 a = b;
 b = temp;
 
-console.log('a:', a);
-console.log('b:', b);
-console.log('temp:', temp);
+console.log('a:', a);//a: hi
+console.log('b:', b);//b: bye
+console.log('temp:', temp);//temp: bye

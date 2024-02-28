@@ -1,10 +1,10 @@
 'use strict';
-
-__;
+debugger;
+let a = 3;
 console.log(a);
 
 {
-  __;
+  let a = 4;
   console.log(a);
 }
 

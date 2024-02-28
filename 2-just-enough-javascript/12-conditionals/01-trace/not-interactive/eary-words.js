@@ -1,8 +1,8 @@
 // #todo
 
 'use strict';
-
-let word = '';
+debugger;
+let word = 'be';
 // let word = 'a';
 // let word = 'be';
 // let word = 'eat';

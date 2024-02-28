@@ -11,7 +11,7 @@
     - assign "me neither!" to the the message
   4. display the message
 */
-
+debugger;
 let likesCake = confirm('do you like cake?');
 
 let message = '';
@@ -25,7 +25,7 @@ alert(message);
 
 // --- distractors ---
 
-} // distractor
-{ // distractor
+ // distractor
+/*{ // distractor
 ] else [ // distractor
-if likesCake === true: // distractor
+if likesCake === true: // distractor*/

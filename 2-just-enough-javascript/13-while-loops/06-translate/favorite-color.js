@@ -36,3 +36,27 @@
 /* ---   ?   --- */
 
 // alert(message)
+
+//initial setup
+debugger;
+let message = 'your favorite color is ';
+let unconfirmed = true ;
+
+//while loop to gather user input and confirmation
+while (unconfirmed ){
+  let input = prompt('What is your favorite color?');
+
+  if (input === null){
+    alert ('There is no escape');
+  } else {
+    let confirmed = confirm('Is this correct? " '+ input + ' " ');
+
+    if (confirmed){
+      message += input;
+      unconfirmed = false;
+    }
+  }
+}
+
+//output the final message to the user
+alert (message);

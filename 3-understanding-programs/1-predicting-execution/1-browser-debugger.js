@@ -36,7 +36,7 @@
   Note: all the different stepping buttons in the debugger? try them all!
 
 */
-
+debugger;
 const input = prompt('enter "hello"');
 
 let didOrNot;

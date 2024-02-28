@@ -10,7 +10,7 @@
 */
 
 
-
+debugger;
 let userInput = prompt('please input something');
 
 
@@ -26,13 +26,13 @@ if (userInput === null) {
 
 // begin distractors
 
-let userInput = alert('please input something'); // distractor
+ userInput = alert('please input something'); // distractor
 
 if (userInput = null) { // distractor
 
 } else if (userInput = '') { // distractor
 
-} else (userInput === '') { // distractor
+} else (userInput === '')  // distractor
 
 
 // #todo

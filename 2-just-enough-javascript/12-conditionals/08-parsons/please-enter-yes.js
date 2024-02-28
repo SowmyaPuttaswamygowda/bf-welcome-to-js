@@ -22,13 +22,13 @@ alert(output);
 
 // begin distractors
 
-if (input.toUpperCase() === 'yes') { // distractor
+/*if (input.toUpperCase() === 'yes') { // distractor
 
-} else if { // distractor
+} else if  // distractor
 
-output === 'you entered "yes"'; // distractor
+(output === 'you entered "yes"'); // distractor
 
 output === '"' + input + '" is not "yes"'; // distractor
 
 
-// #todo
+// #todo*/

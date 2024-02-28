@@ -1,5 +1,5 @@
 'use strict';
-
+debugger;
 let input = null;
 
 while (input === null) {

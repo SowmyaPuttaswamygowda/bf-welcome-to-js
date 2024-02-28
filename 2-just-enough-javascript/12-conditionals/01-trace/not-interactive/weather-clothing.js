@@ -7,8 +7,8 @@
   and identify the exact line that is being executed
 
 */
-
-let weather = 'spring';
+debugger;
+let weather = 'summer';
 // let weather = "summer";
 // let weather = "winter";
 // let weather = "fall";
@@ -30,4 +30,4 @@ if (weather === 'spring') {
 
 console.log(clothingChoice);
 
-// Taken from: https://www.codecademy.com/courses/introduction-to-javascript/quizzes/learn-javascript-control-flow-control-flow-quiz
+//Taken from: https:www.codecademy.com/courses/introduction-to-javascript/quizzes/learn-javascript-control-flow-control-flow-quiz

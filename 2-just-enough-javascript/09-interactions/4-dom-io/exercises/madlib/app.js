@@ -5,8 +5,8 @@ import {
   displayString,
 } from '../../../../../lib/dom-io/index.js';
 
-whenFormDataChanges('______', () => {
-  // debugger;
+whenFormDataChanges('user sentence', () => {
+   debugger;
   console.log('\n--- form data changed ---');
 
   // --- read user input ---

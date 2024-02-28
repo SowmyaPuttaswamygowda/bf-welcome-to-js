@@ -8,17 +8,17 @@
 /* --- gather user input --- */
 
 
-
+//Gather user input
 let input = null;
 
-
+//Continue promting the user until a non-null value is provided
 while (input === null) {
 
 
     input = prompt('type nothing and click "enter"');
 
 
-    console.log(input);
+    console.log(input);//log the input to the console
 
 
 }
@@ -29,7 +29,7 @@ while (input === null) {
 
 let message = '';
 
-
+//check if the input based on the input
 if (input === '') {
 
 

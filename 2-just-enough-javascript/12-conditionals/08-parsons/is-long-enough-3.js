@@ -10,7 +10,7 @@
       1. correct
       2. incorrect
 */
-
+debugger;
 let input = prompt('something longer than 4 characters:');
 
 if (input === null) {

@@ -30,3 +30,16 @@
 /* ---  ?  --- */
 
 // alert(output)
+debugger;
+let input = null;
+while (input === null) {
+  input = prompt ('enter somthing it will become curious');
+}
+let output = '';
+if (input [input.length - 1] !== '?') {
+  output = input + '?';
+} else {
+  output = input;
+}
+alert (output);
+

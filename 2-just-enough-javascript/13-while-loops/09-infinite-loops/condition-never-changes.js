@@ -1,7 +1,7 @@
 // #todo
 
 'use strict';
-
+debugger;
 let word = 'hello';
 
 while (word.length < 10) {
