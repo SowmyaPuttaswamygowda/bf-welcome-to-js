@@ -14,7 +14,7 @@
   5. compare the string to the expected output
 
 */
-
+debugger;
 let before = 'camel';
 
 let after = '';

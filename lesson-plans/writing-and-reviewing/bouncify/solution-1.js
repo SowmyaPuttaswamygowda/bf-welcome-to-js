@@ -23,7 +23,7 @@
       '0 . x . 0'         -> '0 . X . 0'
 
 */
- 
+debugger; 
 let text = '';
 
 // ask the user for input

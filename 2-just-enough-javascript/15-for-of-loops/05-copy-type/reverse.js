@@ -1,7 +1,7 @@
 // #todo
 
 'use strict';
-
+debugger;
 let text = null;
 while (text === null) {
   text = prompt('enter some text to reverse');

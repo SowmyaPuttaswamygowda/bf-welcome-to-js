@@ -15,7 +15,7 @@ let text = 'abc';
 
 let mirrored = '|';
 for (let char of text) {
-  __;
+mirrored = char + mirrored +char;
 }
 
 console.log(mirrored); // 'cba|abc'

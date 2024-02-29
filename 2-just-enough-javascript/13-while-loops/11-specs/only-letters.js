@@ -3,7 +3,9 @@
 'use strict';
 
 /*
-  a user can provide input that contains only uppercase and lowercase letters
+  
+
+console.log('--- bea user can provide input that contains only uppercase and lowercase letters
     - given the user cancels, they will be prompted again
     - given the input is empty, they will be prompted again
     - given their input contains anything that is not a letter, they will be prompted again
@@ -16,18 +18,30 @@
       'abcdABCD' -> 'abcdABCD'
       'JAVAscript' -> 'JAVAscript'
       'hi' -> 'hi'
+      
 
-*/
-
-console.log('--- begin program ---');
+*/console .log('---begin program ---') ;
 
 /* --- declare initial output --- */
-
-let output = _;
+debugger;
+let output = '';
 
 /* --- create final output --- */
 
-while (_) {}
+
+  while (true) {
+    const userInput = prompt('Please enter something  only letters allowed : ');
+    if (!userInput) {
+      continue;
+    } else {
+      if (/^[a-zA-Z]+$/.test(userInput)) {
+        output = userInput;
+        break;
+      } else {
+        continue;
+      }
+    } 
+}
 
 /* --- alert the result --- */
 

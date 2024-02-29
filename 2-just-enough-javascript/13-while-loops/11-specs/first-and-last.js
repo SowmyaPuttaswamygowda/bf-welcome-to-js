@@ -26,22 +26,6 @@
 
 */
 
-console.log('--- begin program ---');
-
-/* --- declare initial output --- */
-
-let output = '';
-
-/* --- create final output --- */
-
-while ()
-
-/* --- alert the result --- */
-
-console.log('output:', output);
-alert(output);
-
-console.log('--- end program ---');
 
 /*
   checklist:
@@ -55,3 +39,53 @@ console.log('--- end program ---');
     [ ] all of the test cases work
     [ ] you tested strange inputs that could break your program (edge cases)
 */
+debugger;
+console.log('--- begin program ---');
+
+/* --- declare initial output --- */
+
+let output = '';
+
+/* --- create final output --- */
+
+while (true) {
+  const input = prompt(
+    'Please enter input that starts with a capital letter and ends with a period',
+  );
+
+  if (input) {
+    if (input.length < 2) {
+      continue;
+    } else if (input[0] !== input[0].toUpperCase()) {
+      continue;
+    } else if (input[input.length - 1] !== '.') {
+      continue;
+    } else {
+      output = input;
+      break;
+    }
+  } else {
+    continue;;
+  }
+}
+
+let newOutput = '';
+
+for (let i = 0; i < output.length; i++) {
+  // make the first char lower case
+  if (i === 0) {
+    newOutput += output[i].toLowerCase();
+  } else if (i === output.length - 1) {
+    // don't add it to the newOutput
+  } else {
+    // just add the char
+    newOutput += output[i];
+  }
+}
+
+/* --- alert the result --- */
+
+console.log('output:', newOutput);
+alert(newOutput);
+
+console.log('--- end program ---');

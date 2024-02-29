@@ -1,7 +1,7 @@
 // #todo
 
 'use strict';
-
+debugger;
 let animal = null;
 while (animal === null) {
   animal = prompt('enter an animal, it will become bigger');

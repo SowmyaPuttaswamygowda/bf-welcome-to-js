@@ -26,8 +26,10 @@ console.log('--- begin program ---');
 
 /* --- gather user input --- */
 
-let input = _;
-while (_) {}
+let input = '';
+while (true) {
+  const userInput = prompt('Please enter somthing (only letters')
+}
 console.log('input:', input);
 
 /* --- declare characters to keep --- */
