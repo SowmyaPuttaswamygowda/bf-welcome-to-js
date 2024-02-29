@@ -14,7 +14,7 @@
 */
 
 
-
+debugger;
 let text = 'xkcd';
 
 let hasVowel = false;
@@ -31,7 +31,7 @@ console.log(hasVowel === false);
 /* ------- */
 
 
-console.log(hasVowel === true); // distractor
+console.log(hasVowel === true);// distractor
 continue; // distractor
 hasVowel === true; // distractor
 

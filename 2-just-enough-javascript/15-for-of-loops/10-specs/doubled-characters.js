@@ -24,17 +24,39 @@ console.log('--- begin program ---');
 
 /* --- gather user input --- */
 
-let input = _;
-while (_) {}
-console.log('input:', input);
+let userInput ;
+while (true) {
+  const input = prompt('Please enter somthing, only letters');
+
+  //Check if user cancels the promt
+  if (input === null){
+    continue;
+  }
+
+  //Check if input is empty
+  if (input.trim() === '') {
+    continue;
+  }
+
+  //Check if input continue anything other than letters
+    if(!/^[a-zA-Z]+$/.test(input)) {
+      continue;
+    }
+    userInput = input;
+      break;
+    } 
+  
+
+console.log('input:',userInput);
 
 /* --- declare initial output --- */
 
-let output = _;
+let output = '';
 
 /* --- create final output --- */
 
-for (let _ of _) {
+for (let char of userInput) {
+  output += char + char;
 }
 
 console.log('output:', output);

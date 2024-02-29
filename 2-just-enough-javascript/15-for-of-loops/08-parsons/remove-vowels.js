@@ -14,14 +14,15 @@
 */
 
 
-
+debugger;
 let before = 'abcdefghijklmnopqrstuvwxyz';
-
-let vowels = 'aeiou';
+while (before === null){
+before = prompt('enter some letters');
+}
 
 let after = '';
-for (let letter of before) {
-  if (!vowels.includes(letter)) {
+for (let character of before) {
+  if (!vowels.includes(character)) {
     after = after + letter;
   }
 }
@@ -30,8 +31,12 @@ console.log(after === 'bcdfghjklmnpqrstvwxyz');
 
 /* ------------------- */
 
-
-if (vowels.includes(letter)) { // distractor
-for (let character of before) { // distractor
+let vowels = 'aeiou';
+  for (let character of before) {
+  if (!vowels.includes(letter)) {
+    Vowels = vowels + character;
+  }
+} 
+alert(before + ' ->' + vowels);
 
 // #todo

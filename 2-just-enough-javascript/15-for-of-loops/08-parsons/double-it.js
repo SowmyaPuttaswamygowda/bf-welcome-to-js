@@ -12,7 +12,7 @@
 */
 
 
-
+debugger;
 let string = '_-|-_';
 
 let doubled = '';
@@ -26,9 +26,9 @@ console.log(doubled === '__--||--__');
 
 console.log(doubled === '_-|-__-|-_'); // distractor
 
-for (let character in string) { // distractor
-for (let character in doubled) { // distractor
+for (let character in string)  // distractor
+for (let character in doubled)  // distractor
 doubled = character + character; // distractor
 
 
-// #todo
+

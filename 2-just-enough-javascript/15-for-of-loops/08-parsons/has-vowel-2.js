@@ -31,9 +31,9 @@ console.log(hasVowel === true);
 /* ------- */
 
 
-console.log(hasVowel === false); // distractor
-} // distractor
-if (!vowels.includes(letter)) { // distractor
-
+console.log(hasVowel === false); {// distractor
+ // distractor
+if (!vowels.includes(letter)) // distractor
+}
 
 // #todo

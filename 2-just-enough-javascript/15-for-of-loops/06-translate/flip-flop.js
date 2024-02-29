@@ -45,3 +45,26 @@
 /* ---   ?   --- */
 
 // alert(flipFlopped)
+debugger;
+let normalPhrase = null;
+
+while (normalPhrase === null) {
+  normalPhrase = prompt ('enter somthing to flipflop');
+}
+
+let previous = '';
+let flipFlopped = '';
+
+for (const current of normalPhrase){
+  if (previous !== ''){
+    flipFlopped += current + previous;
+    previous = '';
+  }else {
+    previous = current;
+  }
+}
+if(flipFlopped.length < normalPhrase.length) {
+  flipFlopped += normalPhrase[normalPhrase.length - 1];
+}
+
+alert (flipFlopped);
