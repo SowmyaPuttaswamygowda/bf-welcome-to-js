@@ -15,16 +15,39 @@
     because the user can decide when to stop there are no certain test cases
 
 */
-
+debugger;
 console.log('--- begin program ---');
 
 /* --- declare initial output --- */
 
-let output = _;
+let output = '';
 
 /* --- create final output --- */
 
-while (_) {}
+while (true) {
+  const input = prompt('please enter a character : ');
+
+  // cancel
+  if (input === null) {
+    alert('no escape, please enter a character');
+    continue;
+  } else if (input === '') {
+    alert('no empty string allowed, please enter a character');
+    continue;
+  } else if (input.length > 1) {
+    alert('please enter a single character');
+    continue;
+  } else {
+    output += input;
+    const isEnough = confirm('Are you done.');
+    if (isEnough) {
+      break;
+    } else {
+      continue;
+    }
+  }
+} 
+
 
 /* --- alert the result --- */
 

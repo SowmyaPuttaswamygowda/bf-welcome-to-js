@@ -4,7 +4,7 @@
 'use strict';
 
 // ::::: don't forget to trace the program! :::::
-
+debugger;
 
 let animal = 'horse';
 

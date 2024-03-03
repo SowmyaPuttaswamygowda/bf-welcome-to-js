@@ -24,23 +24,37 @@
       'let input = ""' -> 'letinput|tupnitel'
 
 */
-
+debugger;
 console.log('--- begin program ---');
 
 /* --- gather user input --- */
 
-let input = _;
-while (_) {}
+let input = '';
+while (true) {
+   input = prompt('Enter somthing it turns into mirror');
+  if (input){
+    break; 
+  }else{
+    continue;
+  }
+
+}
 console.log('input:', input);
 
 /* --- declare initial output --- */
 
-let output = _;
+let output = '|';
 
 /* --- create final output --- */
 
-for (let _ of _) {
+for (let char of input) {
+  if (/^[a-zA-Z]+$/.test(char)) {
+    output = char + output + char;
+  }
 }
+
+const outputSplit = output.split('|');
+output = outputSplit[1] + '|' + outputSplit[0];
 
 /* --- alert the result --- */
 

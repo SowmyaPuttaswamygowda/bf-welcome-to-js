@@ -13,13 +13,13 @@
 
 */
 
-
+debugger;
 
 let word = 'zijn';
 
 let hasVowel = false;
 
-let vowels = 'aeiou';
+const vowels = 'aeiou';
 for (let letter of word) {
   if (vowels.includes(letter)) {
     hasVowel = true;
@@ -32,9 +32,9 @@ console.log(hasVowel === true);
 /* ------- */
 
 
-console.log(hasVowel === false); // distractor
+/*console.log(hasVowel === false); // distractor
 } // distractor
 if (!vowels.includes(letter)) { // distractor
 
 
-// #todo
+// #todo*/

@@ -13,14 +13,14 @@
 
 */
 
+debugger;
 
-
-let before = 'abcdefghijklmnopqrstuvwxyz';
+let alphabet = 'abcdefghijklmnopqrstuvwxyz';
 
 let vowels = 'aeiou';
 
 let after = '';
-for (let letter of before) {
+for (let letter of alphabet) {
   if (!vowels.includes(letter)) {
     after = after + letter;
   }
@@ -31,8 +31,8 @@ console.log(after === 'bcdfghjklmnpqrstvwxyz');
 /* ------------------- */
 
 
-if (vowels.includes(letter)) { // distractor
+/*if (vowels.includes(letter)) { // distractor
 for (let character of before) { // distractor
 
 
-// #todo
+// #todo*/

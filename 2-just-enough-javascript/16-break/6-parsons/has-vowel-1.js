@@ -12,12 +12,12 @@
   5. compare the output to the expected value
 
 */
-
+debugger;
 let text = 'xkcd';
 
 let hasVowel = false;
 
-let vowels = 'aeiou';
+const vowels = 'aeiou';
 for (let char of text) {
   if (vowels.includes(char)) {
     hasVowel = true;
@@ -29,7 +29,7 @@ console.log(hasVowel === false);
 
 /* ------- */
 
-console.log(hasVowel === true); // distractor
-hasVowel === true; // distractor
+//console.log(hasVowel === true); // distractor
+//hasVowel === true; // distractor
 
 // #todo
