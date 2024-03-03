@@ -31,3 +31,21 @@
 /* ---   ?   --- */
 
 // alert(input)
+debugger;
+let input = '';
+
+while (true) {
+  input = prompt('enter something shorter than 5 characters');
+
+  if (input === null) {
+    alert('there is no escape');
+    continue;
+  } else if (input.length > 4) {
+    alert('your input is too long');
+    continue;
+  } else {
+    break;
+  }
+}
+
+alert(input);

@@ -24,18 +24,31 @@
 console.log('--- begin program ---');
 
 /* --- gather user input --- */
+debugger;
+let input = '';
+while (true) {
+  input = prompt('Please enter somthing to double only letters allowed');
 
-let input = _;
-while (_) {}
+  if(!input){
+    continue;
+  } else {
+    if (/^[a-zA-Z]+$/.test(input)) {
+      break;
+    } else {
+      continue;
+    }
+  }
+}
 console.log('input:', input);
 
 /* --- declare initial output --- */
 
-let output = _;
+let output = '';
 
 /* --- create final output --- */
 
-for (let _ of _) {
+for (let char of input) {
+  output += char + char;
 }
 
 console.log('output:', output);

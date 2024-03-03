@@ -20,11 +20,30 @@ console.log('--- begin program ---');
 
 /* --- declare initial output --- */
 
-let output = _;
+let output = '';
 
 /* --- create final output --- */
 
-while (_) {}
+while (true) {
+  const input = prompt('plase enter somthing');
+
+  if(input === null) {
+    alert('no escape,please enter a character');
+    continue;
+  } else if (input === '') {
+    alert('empty string not allowed,please enter a character');
+    continue;
+  }else if (input.length > 1) {
+    alert('please enter a single character');
+    continue;
+  } else {
+    output += input;
+    const isCopmleted = confirm('is the output completed');
+    if (isCopmleted) {
+      break;
+    }
+  }
+}
 
 /* --- alert the result --- */
 

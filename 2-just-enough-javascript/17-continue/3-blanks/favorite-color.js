@@ -1,7 +1,7 @@
 // #todo
 
 'use strict';
-
+debugger;
 let message = 'your favorite color is ';
 
 while (true) {

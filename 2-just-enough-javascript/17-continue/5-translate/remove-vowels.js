@@ -35,3 +35,20 @@
 /* ---   ?   --- */
 
 // alert(letters + ' -> ' + noVowels)
+debugger;
+let letters = null;
+
+while (letters === null) {
+  letters = prompt('enter some letters');
+}
+
+let noVowels = '';
+
+for (const character of letters) {
+  if ('aeiouAEIOU'.includes(character)) {
+    continue;
+  }
+  noVowels += character;
+}
+
+alert(letters + ' -> ' + noVowels);

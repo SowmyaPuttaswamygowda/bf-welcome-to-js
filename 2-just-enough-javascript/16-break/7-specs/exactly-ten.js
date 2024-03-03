@@ -24,18 +24,18 @@ console.log('--- begin program ---');
 
 /* --- declare initial output --- */
 
-let output = _;
+/*let output = _;
 
 /* --- create final output --- */
 
-while (_) {}
+/*while (_) {}
 
 /* --- alert the result --- */
 
-console.log('output:', output);
+/*console.log('output:', output);
 alert(output);
 
-console.log('--- end program ---');
+console.log('--- end program ---');*/
 
 /*
   checklist:
@@ -49,3 +49,32 @@ console.log('--- end program ---');
     [ ] all of the test cases work
     [ ] you tested strange inputs that could break your program (edge cases)
 */
+
+let output = '';
+
+/* --- create final output --- */
+
+while (true) {
+  const input = prompt('Please enter something with 10 characters longs ');
+
+  if (input === null) {
+    alert('No escape');
+    continue;
+  } else if (input === '') {
+    alert('you need to enter something');
+    continue;
+  } else if (input.length < 10) {
+    alert(`"${input}" is ${10 - input.length} characters short`);
+    continue;
+  } else if (input.length > 10) {
+    alert(`"${input}" is ${input.length - 10} characters long`);
+    continue;
+  } else {
+    output = input;
+    break;
+  }
+}
+console.log('output:', output);
+alert(output);
+
+console.log('--- end program ---');

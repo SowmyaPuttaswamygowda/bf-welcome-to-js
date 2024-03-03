@@ -31,11 +31,30 @@ console.log('--- begin program ---');
 
 /* --- declare initial output --- */
 
-let output = _;
+let output = '';
 
 /* --- create final output --- */
 
-while (_) {}
+while (true) {
+  const input = prompt(
+   'Please enter somthing,the first character must be upper case and the last must be period.' ,
+  );
+
+  if (input) {
+    if (input.length < 2) {
+      continue;
+    } else if (input[0] !==input[0].toUpperCase()) {
+      continue;
+    } else if (input[input.length - 1]!== '.') {
+      continue;
+    } else {
+      output = input;
+      break;
+    }
+  }else {
+    continue;
+  }
+}
 
 /* --- alert the result --- */
 

@@ -25,29 +25,29 @@
 
 */
 
-console.log('--- begin program ---');
+//console.log('--- begin program ---');
 
 /* --- gather user input --- */
 
-let input = _;
+/*let input = _;
 while (_) {}
-console.log('input:', input);
+console.log('input:', input);*/
 
 /* --- declare initial output --- */
 
-let output = _;
+//let output = _;
 
 /* --- create final output --- */
 
-for (let _ of _) {
-}
+//for (let _ of _) {
+//}
 
 /* --- alert the result --- */
 
-console.log('output:', output);
-alert(output);
+//console.log('output:', output);
+//alert(output);
 
-console.log('--- end program ---');
+//console.log('--- end program ---');
 
 /*
   checklist:
@@ -61,3 +61,42 @@ console.log('--- end program ---');
     [ ] all of the test cases work
     [ ] you tested strange inputs that could break your program (edge cases)
 */
+debugger;
+console.log('--- begin program ---');
+
+/* --- gather user input --- */
+
+let input;
+while (true) {
+  const userInput = prompt('Please enter something to turn into mirror ');
+
+  if (userInput) {
+    input = userInput;
+    break;
+  } else {
+    continue;
+  }
+}
+console.log('input:', input);
+
+/* --- declare initial output --- */
+
+let output = '|';
+
+/* --- create final output --- */
+
+for (let char of input) {
+  if (/^[a-zA-Z]+$/.test(char)) {
+    output = char + output + char;
+  }
+}
+const newOutput = output.split('|');
+output = newOutput[1] + '|' + newOutput[0];
+/* --- alert the result --- */
+
+console.log('output:', output);
+alert(output);
+
+console.log('--- end program ---');
+
+console.log('--- end program ---');

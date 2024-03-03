@@ -12,7 +12,7 @@
   3. alert the user's input
 
 */
-
+debugger;
 
 let input = '';
 while (true) {
@@ -31,6 +31,7 @@ alert(input);
 
 // -- distractors --
 
-input = prompt('enter something'); // distractor
+/*input = prompt('enter something'); // distractor
 
 while (false) { // distractor
+*/

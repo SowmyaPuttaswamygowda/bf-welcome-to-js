@@ -23,33 +23,33 @@
       'let input = ""' -> 'letinput'
 */
 
-console.log('--- begin program ---');
+//console.log('--- begin program ---');
 
 /* --- gather user input --- */
 
-let input = _;
+/*let input = _;
 while (_) {}
 console.log('input:', input);
 
 /* --- declare characters to keep --- */
 
-let toKeep = _;
+//let toKeep = _;
 
 /* --- declare initial output --- */
 
-let output = _;
+//let output = _;
 
 /* --- create final output --- */
 
-for (let _ of _) {
-}
+//for (let _ of _) {
+//}
 
 /* --- alert the result --- */
 
-console.log('output:', output);
+/*console.log('output:', output);
 alert(output);
 
-console.log('--- end program ---');
+console.log('--- end program ---');*/
 
 /*
   checklist:
@@ -63,3 +63,38 @@ console.log('--- end program ---');
     [ ] all of the test cases work
     [ ] you tested strange inputs that could break your program (edge cases)
 */
+debugger;
+let input;
+while (true) {
+  const userInput = prompt('Please enter something, only letters will shown. ');
+  if (userInput) {
+    input = userInput;
+    break;
+  } else {
+    continue;
+  }
+}
+console.log('input:', input);
+
+/* --- declare characters to keep --- */
+
+let toKeep = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+
+/* --- declare initial output --- */
+
+let output = '';
+
+/* --- create final output --- */
+
+for (let char of input) {
+  if (toKeep.indexOf(char) !== -1) {
+    output += char;
+  }
+}
+
+/* --- alert the result --- */
+
+console.log('output:', output);
+alert(output);
+
+console.log('--- end program ---');

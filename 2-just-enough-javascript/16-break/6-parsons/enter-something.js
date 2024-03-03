@@ -21,9 +21,9 @@ alert('done!')
 
 // begin distractors
 
-while (false) { // distractor
+/*while (false) { // distractor
 while (userInput !== null && userInput !== '') { // distractor
 BREAK; // distractor
 
 
-// #todo
+// #todo/*
